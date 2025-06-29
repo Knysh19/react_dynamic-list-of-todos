@@ -1,7 +1,7 @@
 import React from 'react';
 import { Todo } from '../types/Todo';
 import { User } from '../types/User';
-import { Loader } from './Loader';
+import { Loader } from '../Loader';
 
 interface Props {
   todo: Todo;

@@ -19,7 +19,7 @@ export const App: React.FC = () => {
   const [isUserLoading, setIsUserLoading] = useState(false);
 
   const [statusFilter, setStatusFilter] = useState<
-  'all' | 'completed' | 'active'
+    'all' | 'completed' | 'active'
   >('all');
   const [searchQuery, setSearchQuery] = useState('');
 
